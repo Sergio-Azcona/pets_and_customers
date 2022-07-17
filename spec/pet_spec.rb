@@ -20,7 +20,7 @@ RSpec.describe Pet do
 
   it "can be fed" do
     @samson.feed
-    expect(@samson.fed?).to be(true)
+    expect(@samson.feed).to be(true)
   end
 
 end
